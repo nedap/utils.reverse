@@ -19,6 +19,9 @@ Like `comp`, but the functions that appear on the left will be first ones that w
 Example:
 
 ```clojure
+
+(def ten-times (partial * 10))
+
 (->> [1 2 3]
      ;; first `ten-times` will be executed, and then `str`
      ;; Similar to OOP dot notation: ten_times().str()
