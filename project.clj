@@ -54,7 +54,6 @@
                                   [org.clojure/tools.namespace "0.3.0-alpha4"]
                                   [org.clojure/tools.reader "1.1.1" #_"transitive"]
                                   [rewrite-clj "0.6.1" #_"transitive"]]
-                   :plugins      [[lein-cloverage "1.0.13"]]
                    :source-paths ["dev" "test"]
                    :repl-options {:init-ns dev}}
 
