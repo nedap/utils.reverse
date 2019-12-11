@@ -35,6 +35,12 @@ jobs:
       - run:
           name: 'Ensure production isolation'
           command: lein with-profile -dev check
+      - run:
+          name: 'Compile ClojureScript test suite'
+          command: lein with-profile -dev,+test do clean, cljsbuild once test
+      - run:
+          name: 'Run node.js tests'
+          command: node target/out/tests.js
   deploy:
     executor: lein-executor
     steps:
