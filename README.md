@@ -7,7 +7,7 @@ In practice, the purpose of those is, in fact, to enable code that can be read i
 ## Installation
 
 ```clojure
-[com.nedap.staffing-solutions/utils.reverse "0.2.0"]
+[com.nedap.staffing-solutions/utils.reverse "1.0.0"]
 ````
 
 ## Synopsis

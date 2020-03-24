@@ -1,9 +1,9 @@
 ;; Please don't bump the library version by hand - use ci.release-workflow instead.
-(defproject com.nedap.staffing-solutions/utils.reverse "0.2.0"
+(defproject com.nedap.staffing-solutions/utils.reverse "1.0.0"
   ;; Please keep the dependencies sorted a-z.
   :dependencies [[org.clojure/clojure "1.10.1"]]
 
-  :description "hreading macros and HOFs for doing things in reverse order, increasing readability."
+  :description "Threading macros and HOFs for doing things in reverse order, increasing readability."
 
   :url "https://github.com/nedap/utils.reverse"
 
