@@ -28,7 +28,11 @@
 
   :target-path "target/%s"
 
-  :test-paths ["src" "test"]
+  :source-paths ["src"]
+
+  :test-paths ["test"]
+
+  :resource-paths ["resources"]
 
   :monkeypatch-clojure-test false
 

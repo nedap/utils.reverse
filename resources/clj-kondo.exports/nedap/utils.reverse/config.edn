@@ -1,0 +1,3 @@
+{:lint-as {nedap.utils.reverse/r->     clojure.core/->
+           nedap.utils.reverse/rcomp   clojure.core/comp
+           nedap.utils.reverse/rcond-> clojure.core/cond->}}
