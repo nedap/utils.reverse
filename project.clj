@@ -1,5 +1,5 @@
 ;; Please don't bump the library version by hand - use ci.release-workflow instead.
-(defproject com.nedap.staffing-solutions/utils.reverse "1.0.0"
+(defproject com.nedap.staffing-solutions/utils.reverse "1.1.0-alpha1"
   ;; Please keep the dependencies sorted a-z.
   :dependencies [[org.clojure/clojure "1.10.1"]]
 
@@ -28,7 +28,11 @@
 
   :target-path "target/%s"
 
-  :test-paths ["src" "test"]
+  :source-paths ["src"]
+
+  :test-paths ["test"]
+
+  :resource-paths ["resources"]
 
   :monkeypatch-clojure-test false
 
